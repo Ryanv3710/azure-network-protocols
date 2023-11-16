@@ -1,8 +1,8 @@
 <p align="center">
-<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+<img src="https://i.imgur.com/EaYjLa3.png" alt="process of DNS"/>
 </p>
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
+<h1Accessing DNS through A-name --> CNAME -- > DNS cache exercises</h1>
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
@@ -14,7 +14,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Remote Desktop
 - Various Command-Line Tools
 - Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
-- Wireshark (Protocol Analyzer)
+
 
 <h2>Operating Systems Used </h2>
 
