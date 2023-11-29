@@ -1,4 +1,4 @@
-<p align="center">
+![image](https://github.com/Ryanv3710/azure-network-protocols/assets/133434101/c159179b-92a8-446a-85a1-e89470ac245f)<p align="center">
 <img src="https://i.imgur.com/EaYjLa3.png" alt="process of DNS"/>
 </p>
 
@@ -47,17 +47,44 @@ Were going to attempt to ping 'mainframe' but it doesnt exist so the ping reques
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RCOyWMU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Open server managaer and by clicking 'tools' tab you'll scrow down to and click DNS
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YD7epMl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We'll be taking a look in the Forward Lookup Zones in mydomain.com and see the A records already created
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/5doUgiW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Manually create a A-Name record for 'mainframe' so it can be located and be able to be pinged
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/17lxx1n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+As far as the IP address goes; you can set it to whatever but I went ahead and set it to the IP address of DC-1
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/hNAMB1v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+You can now ping 'mainframe' and returned the A-Record we created which is mainframe.mydomain.com
 </p>
 <br />
