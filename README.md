@@ -1,8 +1,8 @@
-![image](https://github.com/Ryanv3710/azure-network-protocols/assets/133434101/c159179b-92a8-446a-85a1-e89470ac245f)<p align="center">
+
 <img src="https://i.imgur.com/EaYjLa3.png" alt="process of DNS"/>
 </p>
 
-<h1Accessing DNS through A-name --> CNAME -- > DNS cache exercises</h1>
+<h1>Accessing DNS through A-name --> CNAME -- > DNS cache exercises</h1>
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
