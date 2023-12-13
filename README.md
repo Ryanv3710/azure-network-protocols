@@ -88,3 +88,20 @@ As far as the IP address goes; you can set it to whatever but I went ahead and s
 You can now ping 'mainframe' and returned the A-Record we created which is mainframe.mydomain.com
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/otaf3GS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go back to DC-1 and change the IP address to 8.8.8.8, notice it still pings the previous address. That is due to it still being in the local cache.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/VUtCpt7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+  By flushing the DNS it will now ping the latest IP 
+</p>
+<br />
